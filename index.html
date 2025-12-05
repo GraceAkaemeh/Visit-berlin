@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Visit Berlin</title>
+    
+</head>
+<body>
+
+    <!-- Kopfbereich / Header -->
+    <header class="main-header">
+        <h1>Visit Berlin</h1>
+        <p>Eine kleine Informationsseite über die Hauptstadt Deutschlands und entdecken Sie die schönsten Sehenswürdigkeiten der Stadt.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#startseite">Startseite</a></li>
+            <li><a href="#sehenswuerdigkeiten">Sehenswürdigkeiten</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hauptbereich / Content -->
+    <main>
+        <!-- Einführung -->
+        <section id="startseite" class="fade-in">
+            <h2>Willkommen in Berlin</h2>
+            <p>Berlin ist die Hauptstadt Deutschlands und eine der spannendsten Städte Europas. 
+            Besucher*innen finden hier historische Gebäude, moderne Architektur, vielfältige Kulturangebote und ein lebendiges Nachtleben. 
+            Die Stadt ist ideal für Sightseeing, Shopping und kulinarische Entdeckungen.</p>
+        </section>
+
+        <!-- Top 5 Sehenswürdigkeiten -->
+        <section id="sehenswuerdigkeiten">
+            <h2>Top 5 Sehenswürdigkeiten</h2>
+
+            <div class="gallery">
+                <a href="brandenburger-tor.html">
+                    <img src="brandenburger-tor.jpg" alt="Brandenburger Tor">
+                    <p>Brandenburger Tor</p>
+                </a>
+                <a href="fernsehturm.html">
+                    <img src="fernsehturm.jpg" alt="Fernsehturm">
+                    <p>Fernsehturm</p>
+                </a>
+                <a href="reichstagsgebaeude.html">
+                    <img src="reichstagsgebaeude.jpg" alt="Reichstagsgebäude">
+                    <p>Reichstagsgebäude</p>
+                </a>
+                <a href="east-side-gallery.html">
+                    <img src="east-side-gallery.jpg" alt="East Side Gallery">
+                    <p>East Side Gallery</p>
+                </a>
+                <a href="berliner-dom.html">
+                    <img src="berliner-dom.jpg" alt="Berliner Dom">
+                    <p>Berliner Dom</p>
+                </a>
+            </div>
+
+            <!-- Tabelle mit Öffnungszeiten/Preisen -->
+            <h3>Öffnungszeiten und Preise</h3>
+            <table>
+                <tr>
+                    <th>Ort</th>
+                    <th>Öffnungszeiten</th>
+                    <th>Preis</th>
+                </tr>
+                <tr>
+                    <td>Brandenburger Tor</td>
+                    <td>24 Stunden, täglich</td>
+                    <td>kostenlos</td>
+                </tr>
+                <tr>
+                    <td>Fernsehturm</td>
+                    <td>09:00 – 23:00</td>
+                    <td>ab 23,50 €</td>
+                </tr>
+                <tr>
+                    <td>Reichstagsgebäude</td>
+                    <td>08:00 – 00:00</td>
+                    <td>kostenlos (mit Anmeldung)</td>
+                </tr>
+                <tr>
+                    <td>East Side Gallery</td>
+                    <td>24 Stunden, täglich</td>
+                    <td>kostenlos</td>
+                </tr>
+                <tr>
+                    <td>Berliner Dom</td>
+                    <td>09:00 – 20:00</td>
+                    <td>ab 10 €</td>
+                </tr>
+            </table>
+
+            <!-- Externer Link zu Google Maps -->
+            <p><a href="https://www.google.com/maps/place/Berlin" target="_blank">Berlin auf Google Maps</a></p>
+        </section>
+
+        <!-- Kontaktformular -->
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="nachricht">Nachricht:</label>
+                <textarea id="nachricht" name="nachricht" rows="4"></textarea>
+
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+    </main> 
+   <section class="author-section">
+    <img src="Bilder/author.jpg" alt="Foto der Autorin" class="author-img">
+
+    <div class="author-info">
+        <h2>Über die Autorin</h2>
+        <p>
+            Mein Name ist Grace Akaemeh. Diese Webseite basiert auf meiner persönlichen
+            Recherche sowie meinen eigenen Eindrücken und Vorlieben zu verschiedenen
+            Sehenswürdigkeiten in Berlin. Die Auswahl und Beschreibung der Orte
+            spiegeln meine eigene Perspektive wider und können von den Erfahrungen
+            anderer Besucher abweichen.
+        </p>
+        <a href="https://www.linkedin.com/in/grace-akaemeh-b94136248" target="_blank" class="author-btn">
+            Mehr über die Autorin auf LinkedIn
+        </a>
+    </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Visit Berlin – Alle Rechte vorbehalten</p>
+    </footer>
+
+</body>
+</html>
