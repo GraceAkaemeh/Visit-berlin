@@ -38,13 +38,12 @@ visit-to-berlin/
 1. Clone the repository:
 git clone https://github.com/GraceAkaemeh/Visit-to-Berlin.git
 
-yaml
-Code kopieren
+
 2. Open `index.html` in your web browser  
 3. Explore the city of Berlin through the web app  
 
 > Optional: Deploy to **GitHub Pages** for a live demo:  
-`https://GraceAkaemeh.github.com/Visit-to-Berlin/`
+`https://GraceAkaemeh.github.io/Visit-to-Berlin/`
 
 ---
 
