@@ -42,8 +42,10 @@ git clone https://github.com/GraceAkaemeh/Visit-berlin.git
 2. Open `index.html` in your web browser  
 3. Explore the city of Berlin through the web app  
 
-> Optional: Deploy to **GitHub Pages** for a live demo:  
-`https://GraceAkaemeh.github.io/Visit-berlin/`
+> Optional: Deploy to **GitHub Pages**  
+## Live Demo
+
+[View the Website](https://GraceAkaemeh.github.io/Visit-berlin/)
 
 ---
 
